@@ -8,7 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 # app config
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:@localhost/final_task"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://b6978c24dcb861:86064bdb@us-cdbr-east-02.cleardb.com/heroku_7c6f4b821836214"
 app.config["SECRET_KEY"] = "c7de7e1c97f15fe"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
